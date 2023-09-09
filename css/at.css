@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Shrikhand&display=swap');
+body{
+	background-color: darkseagreen;
+}
+p{
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 4px -4px forestgreen;
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+}
+marquee{
+	font-size: 40px;
+}
+div.fd{
+	width: 150px;
+	height: 150px;
+	background-color: forestgreen;
+	animation-name: example1;
+	animation-duration: 5s;
+}
+@keyframes example1{
+	from {background-color: forestgreen;}
+	to {background-color: whitesmoke;}
+}
+div.sd{
+	width: 150px;
+	height: 150px;
+	background-color: forestgreen;
+	animation-name: example2;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+@keyframes example2{
+	0% {background-color: forestgreen;}
+	25% {background-color: darkgreen;}
+	50%{background-color: black;}
+	75%{background-color: lightseagreen;}
+	100% {background-color: whitesmoke;}
+}
+div.td{
+	width: 150px;
+	height: 150px;
+	background-color: forestgreen;
+	animation-name: example3;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: 5s;
+	animation-direction: alternate-reverse;
+	font-size: 24px;
+	text-align: center;
+
+}
+@keyframes example3{
+	0% {background-color: forestgreen; left:0px; top:0px}
+	25% {background-color: darkgreen; left:300px; top:0px}
+	50%{background-color: black; left:300px; top:300px}
+	75%{background-color: lightseagreen; left:0px; top:300px}
+	100% {background-color: whitesmoke;left:0px; top:0px}
+}

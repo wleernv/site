@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+body{
+	background-color: darkseagreen;
+}
+p{
+	font-size: 50px;
+	color: forestgreen;
+	background-color: antiquewhite;
+	text-align: center;
+	font-family: 'Ubuntu Condensed', sans-serif;	
+	border: solid 5px darkgreen;
+	display: inline;
+	margin: 38px;
+}
+span{
+	border: dashed 2px gray;
+}
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+li{
+	display: inline;
+}
+a{
+	text-decoration: none;
+	border: dotted 5px forestgreen;
+	margin: 20px;
+	font-size: 24px;
+	color: darkgreen;
+	background-color: antiquewhite;
+}
+a:hover{
+	color: antiquewhite;
+	background-color: forestgreen;
+	border: dotted 5px antiquewhite;
+}
+.first{
+	width: 300px;
+	height: 300px;
+	background-color: antiquewhite;
+	border: ridge 10px lightpink;
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.second{
+	width: 500px;
+	height: 500px;
+	background-color: #78ad86;
+	border: groove 10px forestgreen;
+}
+.third, .fourth{
+	height: 150px;
+	width: 750px;
+	background: #c0d1c5;
+	margin: 30px;
+	font-size: 24px;
+	padding: 20px;
+	border-top: dotted 10px #4e6154;;
+}
+.third{
+	border: dotted 10px #4e6154;
+	text-align: center;
+}
+.fourth{
+	border-bottom: dashed 20px antiquewhite;
+}
+.f{
+	width: 500px;
+	height: 500px;
+	background-color: #345c41;
+	border: groove 10px antiquewhite;
+}
+.s{
+	width: 350px;
+	height: 350px;
+	background-color: #53695a;
+	border: groove 10px antiquewhite;
+	box-align: center;
+	align-items: center;
+	text-align: center;
+	margin: 45px;
+	padding: 9px;
+}
+.e{
+	height: 100px;
+	width: 100px;
+	background-color: #7b9684;
+	border: dotted 10px antiquewhite;
+	text-align: center;
+	font-size: 30px;
+
+	margin: 100px;
+	padding: 20px;
+}
